@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/arthur/Desktop/year 2/sem1/DSA/imp/linked_create'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x100003B74, symSize: 0x40 }
+  - { offsetInCU: 0x6E, offset: 0x6E, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x100003B74, symSize: 0x40 }
+  - { offsetInCU: 0xA4, offset: 0xA4, size: 0x8, addend: 0x0, symName: _insertAtStart, symObjAddr: 0x40, symBinAddr: 0x100003BB4, symSize: 0x70 }
+  - { offsetInCU: 0xE4, offset: 0xE4, size: 0x8, addend: 0x0, symName: _insertAtEnd, symObjAddr: 0xB0, symBinAddr: 0x100003C24, symSize: 0x94 }
+  - { offsetInCU: 0x140, offset: 0x140, size: 0x8, addend: 0x0, symName: _insertBeforeAPoint, symObjAddr: 0x144, symBinAddr: 0x100003CB8, symSize: 0xB4 }
+  - { offsetInCU: 0x1B8, offset: 0x1B8, size: 0x8, addend: 0x0, symName: _deleteAtAPoint, symObjAddr: 0x1F8, symBinAddr: 0x100003D6C, symSize: 0x64 }
+  - { offsetInCU: 0x206, offset: 0x206, size: 0x8, addend: 0x0, symName: _insertAtAPoint, symObjAddr: 0x25C, symBinAddr: 0x100003DD0, symSize: 0xAC }
+  - { offsetInCU: 0x270, offset: 0x270, size: 0x8, addend: 0x0, symName: _process, symObjAddr: 0x308, symBinAddr: 0x100003E7C, symSize: 0x70 }
+  - { offsetInCU: 0x2A2, offset: 0x2A2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x378, symBinAddr: 0x100003EEC, symSize: 0x80 }
+...
